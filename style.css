@@ -1,0 +1,446 @@
+body {
+  font-family: 'Cutive Mono', monospace, sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  width: 100%;
+  background-color: #101010;
+}
+
+html, body{
+  margin:0px;
+}
+
+h1 {
+  font-family: Poppins;
+  color: #ad2a2a;
+  line-height: 42px;
+}
+
+a {
+  display: block
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: none;
+}
+
+/* selected link */
+a:active {
+  color: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+
+
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.background-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  background-color: rgba(38, 39, 40, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phasmophobia_logo_master {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  top: 0;
+  left: 0;
+  width: 90vw;
+  z-index: 999;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.phasmophobia_logo {
+  width: 600px;
+  height: 128px;
+  background-image: url(content/Phasmophobia_Logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: blur(0.5px);
+  overflow: hidden;
+  z-index: 998;
+}
+
+
+.phasmophobia_logo_subtitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90vw;
+  margin-top: 2rem;
+  font-family: 'Cutive Mono', monospace, sans-serif;;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.phasmophobia_about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.row_screenshots_master {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 6rem;
+  left: 0;
+  z-index: 997;
+}
+
+.first_screenshot {
+  width: 30vw;
+  height: 400px;
+  background-image: url(content/phasmophobia-house1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: ease-in-out 0.1s;
+  text-align: center;
+  color: darkgrey;
+  opacity: 0.9;
+  margin-left: 5vw;
+}
+
+.second_screenshot {
+  width: 30vw;
+  height: 400px;
+  background-image: url(content/phasmophobia-prison-level.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: ease-in-out 0.1s;
+  text-align: center;
+  color: darkgrey;
+  margin-left: 32px;
+  margin-right: 32px;
+  opacity: 0.9;
+}
+
+.third_screenshot {
+  width: 30vw;
+  height: 400px;
+  background-image: url(content/phasmophobia-house2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: ease-in-out 0.1s;
+  text-align: center;
+  color: darkgrey;
+  opacity: 0.9;
+  margin-right: 5vw;
+}
+
+.first_screenshot:hover {
+  transform: scale(1.05);
+}
+
+.second_screenshot:hover {
+  transform: scale(1.05);
+}
+
+.third_screenshot:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+.info_row_master {
+  display: flex;
+  width: 100%;
+  height: 700px;
+}
+
+.info_row_one_image {
+  width: 50%;
+  background-image: url(content/gallery_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_row_two_image {
+  width: 50%;
+  background-image: url(content/gallery_2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_row_three_image {
+  width: 50%;
+  background-image: url(content/gallery_3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_row_four_image {
+  width: 50%;
+  background-image: url(content/gallery_4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_row_info {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 20px;
+  background-image: url(content/treesilhoutte.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.info_wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10vh;
+  width: 70%;
+  height: 100%;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+.social_link_title {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: #ad2a2a solid 1px;
+}
+
+
+.social_link_master {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+  z-index: 997;
+}
+
+.social_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 150px;
+}
+
+.social_link:hover {
+  cursor: pointer;
+  background-color: rgb(173, 42, 42, 0.8);
+}
+
+.extra_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  border-top: #ad2a2a solid 1px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #121212;
+  font-family: Poppins;
+}
+
+.footer_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+  .phasmophobia_logo {
+    width: 450px;
+  }
+
+  .row_screenshots_master {
+    flex-direction: column;
+  }
+
+  .first_screenshot {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 32px;
+  }
+
+  .second_screenshot {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 32px;
+  }
+
+  .third_screenshot {
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 32px;
+  }
+
+  .info_row_info {
+    font-size: 16px;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    background-image: none;
+  }
+
+  .info_wrapper {
+    font-size: 14px;
+  }
+
+  .info_row_master {
+    flex-direction: column;
+  }
+
+  .info_row_one_image {
+    width: 100%;
+    height: 700px;
+  }
+
+  .info_row_two_image {
+    width: 100%;
+    height: 700px;
+  }
+
+  .info_row_three_image {
+    width: 100%;
+    height: 700px;
+  }
+
+  .info_row_four_image {
+    width: 100%;
+    height: 700px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .phasmophobia_logo {
+    width: 350px;
+  }
+
+  .footer_item {
+    font-size: 12px;
+  }
+
+  .info_row_info {
+    height: 500px;
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+
+  .phasmophobia_logo {
+    width: 250px;
+  }
+
+
+}
